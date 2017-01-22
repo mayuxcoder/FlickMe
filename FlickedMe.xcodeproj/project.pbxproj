@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6614F1B21E3430ED00786A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6614F1B11E3430ED00786A11 /* AppDelegate.swift */; };
+		6614F1B41E3430ED00786A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6614F1B31E3430ED00786A11 /* ViewController.swift */; };
+		6614F1B71E3430ED00786A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6614F1B51E3430ED00786A11 /* Main.storyboard */; };
+		6614F1B91E3430ED00786A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6614F1B81E3430ED00786A11 /* Assets.xcassets */; };
+		6614F1BC1E3430ED00786A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6614F1BA1E3430ED00786A11 /* LaunchScreen.storyboard */; };
+		6614F1C71E3430ED00786A11 /* FlickedMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6614F1C61E3430ED00786A11 /* FlickedMeTests.swift */; };
+		6614F1D21E3430ED00786A11 /* FlickedMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6614F1D11E3430ED00786A11 /* FlickedMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6614F1C31E3430ED00786A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6614F1A61E3430ED00786A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6614F1AD1E3430ED00786A11;
+			remoteInfo = FlickedMe;
+		};
+		6614F1CE1E3430ED00786A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6614F1A61E3430ED00786A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6614F1AD1E3430ED00786A11;
+			remoteInfo = FlickedMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6614F1AE1E3430ED00786A11 /* FlickedMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickedMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6614F1B11E3430ED00786A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6614F1B31E3430ED00786A11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6614F1B61E3430ED00786A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6614F1B81E3430ED00786A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6614F1BB1E3430ED00786A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6614F1BD1E3430ED00786A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6614F1C21E3430ED00786A11 /* FlickedMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickedMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6614F1C61E3430ED00786A11 /* FlickedMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickedMeTests.swift; sourceTree = "<group>"; };
+		6614F1C81E3430ED00786A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6614F1CD1E3430ED00786A11 /* FlickedMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickedMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6614F1D11E3430ED00786A11 /* FlickedMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickedMeUITests.swift; sourceTree = "<group>"; };
+		6614F1D31E3430ED00786A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6614F1AB1E3430ED00786A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6614F1BF1E3430ED00786A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6614F1CA1E3430ED00786A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6614F1A51E3430ED00786A11 = {
+			isa = PBXGroup;
+			children = (
+				6614F1B01E3430ED00786A11 /* FlickedMe */,
+				6614F1C51E3430ED00786A11 /* FlickedMeTests */,
+				6614F1D01E3430ED00786A11 /* FlickedMeUITests */,
+				6614F1AF1E3430ED00786A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6614F1AF1E3430ED00786A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6614F1AE1E3430ED00786A11 /* FlickedMe.app */,
+				6614F1C21E3430ED00786A11 /* FlickedMeTests.xctest */,
+				6614F1CD1E3430ED00786A11 /* FlickedMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6614F1B01E3430ED00786A11 /* FlickedMe */ = {
+			isa = PBXGroup;
+			children = (
+				6614F1B11E3430ED00786A11 /* AppDelegate.swift */,
+				6614F1B31E3430ED00786A11 /* ViewController.swift */,
+				6614F1B51E3430ED00786A11 /* Main.storyboard */,
+				6614F1B81E3430ED00786A11 /* Assets.xcassets */,
+				6614F1BA1E3430ED00786A11 /* LaunchScreen.storyboard */,
+				6614F1BD1E3430ED00786A11 /* Info.plist */,
+			);
+			path = FlickedMe;
+			sourceTree = "<group>";
+		};
+		6614F1C51E3430ED00786A11 /* FlickedMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6614F1C61E3430ED00786A11 /* FlickedMeTests.swift */,
+				6614F1C81E3430ED00786A11 /* Info.plist */,
+			);
+			path = FlickedMeTests;
+			sourceTree = "<group>";
+		};
+		6614F1D01E3430ED00786A11 /* FlickedMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6614F1D11E3430ED00786A11 /* FlickedMeUITests.swift */,
+				6614F1D31E3430ED00786A11 /* Info.plist */,
+			);
+			path = FlickedMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6614F1AD1E3430ED00786A11 /* FlickedMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6614F1D61E3430ED00786A11 /* Build configuration list for PBXNativeTarget "FlickedMe" */;
+			buildPhases = (
+				6614F1AA1E3430ED00786A11 /* Sources */,
+				6614F1AB1E3430ED00786A11 /* Frameworks */,
+				6614F1AC1E3430ED00786A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickedMe;
+			productName = FlickedMe;
+			productReference = 6614F1AE1E3430ED00786A11 /* FlickedMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6614F1C11E3430ED00786A11 /* FlickedMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6614F1D91E3430ED00786A11 /* Build configuration list for PBXNativeTarget "FlickedMeTests" */;
+			buildPhases = (
+				6614F1BE1E3430ED00786A11 /* Sources */,
+				6614F1BF1E3430ED00786A11 /* Frameworks */,
+				6614F1C01E3430ED00786A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6614F1C41E3430ED00786A11 /* PBXTargetDependency */,
+			);
+			name = FlickedMeTests;
+			productName = FlickedMeTests;
+			productReference = 6614F1C21E3430ED00786A11 /* FlickedMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6614F1CC1E3430ED00786A11 /* FlickedMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6614F1DC1E3430ED00786A11 /* Build configuration list for PBXNativeTarget "FlickedMeUITests" */;
+			buildPhases = (
+				6614F1C91E3430ED00786A11 /* Sources */,
+				6614F1CA1E3430ED00786A11 /* Frameworks */,
+				6614F1CB1E3430ED00786A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6614F1CF1E3430ED00786A11 /* PBXTargetDependency */,
+			);
+			name = FlickedMeUITests;
+			productName = FlickedMeUITests;
+			productReference = 6614F1CD1E3430ED00786A11 /* FlickedMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6614F1A61E3430ED00786A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mayu;
+				TargetAttributes = {
+					6614F1AD1E3430ED00786A11 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					6614F1C11E3430ED00786A11 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6614F1AD1E3430ED00786A11;
+					};
+					6614F1CC1E3430ED00786A11 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6614F1AD1E3430ED00786A11;
+					};
+				};
+			};
+			buildConfigurationList = 6614F1A91E3430ED00786A11 /* Build configuration list for PBXProject "FlickedMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6614F1A51E3430ED00786A11;
+			productRefGroup = 6614F1AF1E3430ED00786A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6614F1AD1E3430ED00786A11 /* FlickedMe */,
+				6614F1C11E3430ED00786A11 /* FlickedMeTests */,
+				6614F1CC1E3430ED00786A11 /* FlickedMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6614F1AC1E3430ED00786A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6614F1BC1E3430ED00786A11 /* LaunchScreen.storyboard in Resources */,
+				6614F1B91E3430ED00786A11 /* Assets.xcassets in Resources */,
+				6614F1B71E3430ED00786A11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6614F1C01E3430ED00786A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6614F1CB1E3430ED00786A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6614F1AA1E3430ED00786A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6614F1B41E3430ED00786A11 /* ViewController.swift in Sources */,
+				6614F1B21E3430ED00786A11 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6614F1BE1E3430ED00786A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6614F1C71E3430ED00786A11 /* FlickedMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6614F1C91E3430ED00786A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6614F1D21E3430ED00786A11 /* FlickedMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6614F1C41E3430ED00786A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6614F1AD1E3430ED00786A11 /* FlickedMe */;
+			targetProxy = 6614F1C31E3430ED00786A11 /* PBXContainerItemProxy */;
+		};
+		6614F1CF1E3430ED00786A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6614F1AD1E3430ED00786A11 /* FlickedMe */;
+			targetProxy = 6614F1CE1E3430ED00786A11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6614F1B51E3430ED00786A11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6614F1B61E3430ED00786A11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6614F1BA1E3430ED00786A11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6614F1BB1E3430ED00786A11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6614F1D41E3430ED00786A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6614F1D51E3430ED00786A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6614F1D71E3430ED00786A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlickedMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.flickedme.FlickedMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6614F1D81E3430ED00786A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlickedMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.flickedme.FlickedMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6614F1DA1E3430ED00786A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlickedMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.flickedme.FlickedMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlickedMe.app/FlickedMe";
+			};
+			name = Debug;
+		};
+		6614F1DB1E3430ED00786A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlickedMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.flickedme.FlickedMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlickedMe.app/FlickedMe";
+			};
+			name = Release;
+		};
+		6614F1DD1E3430ED00786A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlickedMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.flickedme.FlickedMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlickedMe;
+			};
+			name = Debug;
+		};
+		6614F1DE1E3430ED00786A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlickedMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.flickedme.FlickedMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlickedMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6614F1A91E3430ED00786A11 /* Build configuration list for PBXProject "FlickedMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6614F1D41E3430ED00786A11 /* Debug */,
+				6614F1D51E3430ED00786A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6614F1D61E3430ED00786A11 /* Build configuration list for PBXNativeTarget "FlickedMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6614F1D71E3430ED00786A11 /* Debug */,
+				6614F1D81E3430ED00786A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6614F1D91E3430ED00786A11 /* Build configuration list for PBXNativeTarget "FlickedMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6614F1DA1E3430ED00786A11 /* Debug */,
+				6614F1DB1E3430ED00786A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6614F1DC1E3430ED00786A11 /* Build configuration list for PBXNativeTarget "FlickedMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6614F1DD1E3430ED00786A11 /* Debug */,
+				6614F1DE1E3430ED00786A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6614F1A61E3430ED00786A11 /* Project object */;
+}
